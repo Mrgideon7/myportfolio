@@ -1,0 +1,34 @@
+
+header{
+    background-color: aqua;
+    padding: 20px;
+}
+#Introduction  {
+    background-color: chocolate;
+    padding: 20px;
+    
+}
+#Skills {
+    background-color: #ddd;
+    padding: 20px;
+
+  }
+#Skills li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: aquamarine;
+    padding: 20px;
+
+}
+ footer li{
+    margin-bottom: 10px;
+ }
+
+  @media only screen and (max-width: 600px) {
+    .introduction, .skills, .contact {
+      padding: 10px;
+      margin: 10px;
+    }
+}
